@@ -1,0 +1,87 @@
+.cloudVoice {
+margin-left: 10px;
+}
+ .cloud {
+min-width: 50px;
+max-width: 300px;
+margin: 0 0 0 15px;
+}
+.cloud {
+max-width: 300px;
+cursor: default;
+position: static;
+}
+
+.cloudPannel {
+position: relative;
+_position: static;
+}
+.cloudVoice .cloudBody {
+position: relative;
+margin: 0 17px;
+margin: 0 7px\9;
+padding-left: 18px\9;
+margin: 0px 8px 9px 7px;
+}
+.cloudBody {
+border: 1px solid #AFAFAF;
+box-shadow: 0px 1px 0px #D5D5D5;
+border: 1px solid #9f9f9f\9;
+border-radius: 6px\9;
+background-color: #ECECEC;
+}
+.cloudBody {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+.cloudVoice .cloudContent {
+display: block;
+padding: 7px 7px;
+padding: 7px 6px\9;
+border-radius: 7px;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+border-radius: 7px\9;
+margin-left: -20px\9;
+}
+.cloudContent {
+padding: 5px 13px\9;
+padding: 7px 10px;
+color: #030303;
+border-top: 1px solid #FFF;
+border-bottom: 1px solid #F2F2F2;
+border-right: 1px solid #F2F2F2;
+background-color: #ECECEC\9;
+background: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#e5e5e5), color-stop(0.1, #f3f3f3), color-stop(0.3, #f1f1f1), color-stop(0.5, #ececec), color-stop(0.7, #e9e9e9), color-stop(0.9, #e6e6e6), color-stop(1, #e5e5e5));
+background-image: -moz-linear-gradient(top, #f3f3f3 10%, #f1f1f1 30%, #ececec 50%, #e9e9e9 70%, #e6e6e6 90%, #e5e5e5 100%);
+}
+.cloudContent {
+text-align: left;
+font-weight: normal;
+font-size: 14px;
+min-height: 20px;
+word-wrap: break-word;
+}
+
+.cloudVoice .cloudContent .icoVoice {
+display: inline-block;
+float: left;
+width: 25px;
+width: 25px\9;
+height: 20px;
+background: url(../images/static.png) no-repeat 0 -1px;
+cursor: pointer;
+margin-left: 0px\9;
+}
+.cloudVoice .cloudContent .icoVoicePlaying {
+  display: inline-block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  background: url(../images/play.gif) no-repeat left 0px;
+}

@@ -1,0 +1,72 @@
+@font-face {
+ font-family: "wxppt";
+ src: url('../fonts/wxppt.eot') format("embedded-opentype");
+ src: url('../fonts/wxppt.woff') format('woff'), 
+      url('../fonts/wxppt.ttf') format('truetype'), 
+      url('../fonts/wxppt.svg#wxppt') format('svg');
+}
+
+@font-face {
+ font-family: "msyh";
+ src: url("../fonts/msyh.eot") format("embedded-opentype");
+ src: url("../fonts/msyh.woff") format("woff"), 
+      url("../fonts/msyh.ttf") format("truetype"), 
+      url("../fonts/msyh.svg#wxppt") format("svg");
+}
+
+body {
+      margin: 82px 0px 0px 0px;
+      background-color: #e0e0e0;
+      font-family: 微软雅黑, msyh;
+}
+
+input,button,select,textarea {
+      outline:none;
+      font-family: 微软雅黑, msyh;
+}
+
+.undecorate {
+	text-decoration: none;
+	color: #ffffff;
+	-webkit-font-smoothing:antialiased;
+}
+
+.undecorate span {
+	font-family: wxppt;
+	padding-right: 10px;
+}
+
+.tf {
+	margin-top: 20px;
+	width: 100%;
+	padding:6px 0px 6px 8px ;
+	color: #000000;
+	font-size: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: 0px;
+}
+
+.btn {
+	font-family: 微软雅黑, msyh;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 258px;
+	padding:6px 0px 6px 0px ;
+	color: #ffffff;
+	font-size: 100%;
+	border-radius: 5px;
+	border: 0px;
+	position: relative;
+}
+
+.ctf {
+	width: 100%;
+	margin-top: -1px;
+	padding:4px 0px 4px 8px ;
+	color: #000000;
+	font-size: 14px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: 0px;
+}

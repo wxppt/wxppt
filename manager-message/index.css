@@ -1,0 +1,92 @@
+#righttitle {
+	margin-top: 13px;
+	margin-left: 40px;
+	min-width: 100px;
+	width: 10%;
+	float: left;
+}
+
+#messagefilter {
+	margin-top: 16px;
+	margin-right: 40px;
+	font-size: 14px;
+	float: right;
+}
+
+#messagefilter a {
+	margin-left: 10px;
+}
+
+.filterselected {
+	text-decoration: underline;
+}
+
+.messagerow {
+	width: 100%;
+	height: auto;
+	min-height: 80px;
+	border-bottom: 1px solid gray;
+}
+
+.picmessage {
+	height: 180px;
+}
+
+.voicemessage {
+	height: 100px;
+}
+
+.typepicc {
+	width: 50px;
+	height: 50px;
+	padding-top: 15px;
+	padding-left: 40px;
+	float:left;
+}
+
+.msgmain {
+	width: 83%;
+	height:80px;
+	margin-left: 20px;
+	float: left;
+}
+
+.msgbar {
+	color: #222222;
+	width: 100%;
+	height: 23px;
+	background-color: white;
+	margin-top: 15px;
+}
+
+.msgfunc {
+	margin-right: 20px;
+	float:right;
+}
+
+.msgfunc a {
+	text-decoration: underline;
+	color: #222222;
+}
+
+.msguser {
+	margin-right: 280px;
+}
+
+.msguser, .msgtime {
+	float: left;
+}
+
+.msgdetail {
+	width: 100%;
+	padding-top: 5px;
+	min-height: 23px;
+}
+
+.msgpic {
+	height: 120px;
+	margin-right: 10px;
+	border-radius: 5px;
+	border: 1px solid gray; 
+	float: left;
+}

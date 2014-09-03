@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="manager_main.css">
+	<link rel="stylesheet" type="text/css" href="message-voice.css">
+	<link rel="stylesheet" type="text/css" href="global.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="right">
+			<div id="righttop">
+				<div id="righttitle">消息列表</div>
+				<div id="messagefilter">当前显示：
+					<a class="undecorate filterselected" href="javascript:">全部消息</a>
+					<a class="undecorate"  href="javascript:">今天</a>
+					<a class="undecorate" href="javascript:">昨天</a>
+					<a class="undecorate" href="javascript:">前天</a>
+					<a class="undecorate" href="javascript:">更早时间</a>
+				</div>
+			</div>
+			<div id="content">
+				<div class="messagerow picmessage">
+					<div class="typepicc">
+						<img src="pic.gif" />
+					</div>
+					<div class="msgmain">
+						<div class="msgbar">
+							<div class="msguser">豆梦宇</div>
+							<div class="msgtime">2014-08-28 19:43</div>
+							<div class="msgfunc"><a href="javascript:">回复</a></div>
+						</div>
+						<div class="msgdetail">
+							<img class="msgpic" alter="图片加载失败" src="1.jpg">
+						</div>
+					</div>
+				</div>
+				<div class="messagerow textmessage">
+					<div class="typepicc">
+						<img src="text.gif" />
+					</div>
+					<div class="msgmain">
+						<div class="msgbar">
+							<div class="msguser">豆梦宇</div>
+							<div class="msgtime">2014-08-28 19:43</div>
+							<div class="msgfunc"><a href="javascript:">回复</a></div>
+						</div>
+						<div class="msgdetail">
+							2333333333333
+						</div>
+					</div>
+				</div>
+				<div class="messagerow voicemessage">
+					<div class="typepicc">
+						<img src="voice.gif" />
+					</div>
+					<div class="msgmain">
+						<div class="msgbar">
+							<div class="msguser">豆梦宇</div>
+							<div class="msgtime">2014-08-28 19:43</div>
+							<div class="msgfunc"><a href="javascript:">回复</a></div>
+						</div>
+						<div class="msgdetail">
+							<div class="message-voice">
+								<div id="playbutton" msgid="6052580287047532544" class="cloud cloudVoice" onclick="play(this);" style="width:89.32px">
+									<div class="cloudPannel" style=""> 
+										<div class="cloudBody"> 
+											<div class="cloudContent"> <!--voice msg --> 
+												<span class="icoVoice" un="voiceStatus">
+												</span> 		
+											</div>  
+										</div>
+										<audio id="6052580287047532544voice" controls="" name="media" style="display:none">
+											<source src="http://isefile.b0.upaiyun.com/2014-08-28/voice/16e97c1c5bdeb7f953975de52f7c4ebc.mp3" type="audio/mp3">
+										</audio>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="messagerow voicemessage">
+					<div class="typepicc">
+						<img src="voice.gif" />
+					</div>
+					<div class="msgmain">
+						<div class="msgbar">
+							<div class="msguser">豆梦宇</div>
+							<div class="msgtime">2014-08-28 19:43</div>
+							<div class="msgfunc"><a href="javascript:">回复</a></div>
+						</div>
+						<div class="msgdetail">
+							<div class="message-voice">
+								<div id="playbutton" msgid="6052580287047532544" class="cloud cloudVoice" onclick="play(this);" style="width:89.32px">
+									<div class="cloudPannel" style=""> 
+										<div class="cloudBody"> 
+											<div class="cloudContent"> <!--voice msg --> 
+												<span class="icoVoice" un="voiceStatus">
+												</span> 		
+											</div>  
+										</div>
+										<audio id="6052580287047532544voice" controls="" name="media" style="display:none">
+											<source src="http://isefile.b0.upaiyun.com/2014-08-28/voice/16e97c1c5bdeb7f953975de52f7c4ebc.mp3" type="audio/mp3">
+										</audio>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
