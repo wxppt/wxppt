@@ -5,9 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="manager_main.css">
 	<link rel="stylesheet" type="text/css" href="message-voice.css">
 	<link rel="stylesheet" type="text/css" href="global.css">
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="manager-message.css">
 	<script type="text/javascript" src="jquery.js"></script>
-	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="manager-message.js"></script>
 	<meta charset="utf-8">
 </head>
 <body>
@@ -15,17 +15,17 @@
 			<div id="righttop">
 				<div id="righttitle">消息列表</div>
 				<div id="messagefilter">当前显示：
-					<a class="undecorate filterselected" href="javascript:">全部消息</a>
-					<a class="undecorate"  href="javascript:">今天</a>
-					<a class="undecorate" href="javascript:">昨天</a>
-					<a class="undecorate" href="javascript:">前天</a>
-					<a class="undecorate" href="javascript:">更早时间</a>
+					<a class="undecorate msgfilter filterselected" href="javascript:">全部消息</a>
+					<a class="undecorate msgfilter"  href="javascript:">今天</a>
+					<a class="undecorate msgfilter" href="javascript:">昨天</a>
+					<a class="undecorate msgfilter" href="javascript:">前天</a>
+					<a class="undecorate msgfilter" href="javascript:">更早时间</a>
 				</div>
 			</div>
 			<div id="content">
 				<div class="msgrow picmsgrow">
 					<div class="typepicc">
-						<img src="pic.gif" />
+						<img src="images/pic.gif" />
 					</div>
 					<div class="msgmain picmsgmain">
 						<div class="msgbar">
@@ -41,36 +41,70 @@
 							<div>消息回复：</div>
 							<textarea></textarea>
 							<button class="cancelreply">收起</button>
-							<button>回复</button>
+							<button class="cancelreply">回复</button>
 							
 						</div>
 					</div>
 				</div>
 				<div class="msgrow textmessage">
 					<div class="typepicc">
-						<img src="text.gif" />
+						<img src="images/text.gif" />
 					</div>
-					<div class="msgmain">
+					<div class="msgmain textmsgmain">
 						<div class="msgbar">
 							<div class="msguser">豆梦宇</div>
 							<div class="msgtime">2014-08-28 19:43</div>
 							<div class="msgfunc msgreply"><a href="javascript:">回复</a></div>
 						</div>
-						<div class="msgdetail">
-							2333333333333
+						<div class="msgdetail textmsgdetail">
+髅髅宫歌留多编辑
+动漫作品《妖狐×仆SS》中主要人物。典型的无口萝莉，只要是吃的东西，都会拿来吃。对妙脆角之类的零食格外喜爱。是妖馆2号室居住者青鬼院蜻蛉的SS。
+返祖状态为荒骷髅。与渡狸卍里是青梅竹马。
+中文名髅髅宫歌留多
+外文名髏々宮カルタ
+Roromiya Karuta
+配    音花泽香菜
+登场作品《妖狐×仆SS》
+生    日5月15日
+年    龄15岁
+身    高151cm
+目录
+1动漫人物
+2角色简介
+3角色曲
+1动漫人物
+编辑
+
+髅髅宫歌留多（髅々宫カルタ）
+Roromiya Karuta
+动漫作品《妖狐×仆SS》[1-2]   中主要人物 
+歌留多TV版
+歌留多TV版(28张)
+。声优：花泽香菜
+年龄：15岁（故事开始）
+血型：B型
+属性：天然呆、吃货、无口
+妖怪种类：骷髅精（荒骷髅）
+喜欢的人：渡狸卍里
+契约者：青鬼院蜻蛉、渡狸卍里（漫画第二章）
+2角色简介
+编辑
+
+2号室的SS，是典型的无口LOLI，双马尾，貌似对妙脆角之类的零食很喜爱，在妖馆的女性成员中体力算强。
 						</div>
 						<div class="replypanel">
+							<div class="hmargin"></div>
 							<div>消息回复：</div>
 							<textarea></textarea>
 							<button class="cancelreply">收起</button>
-							<button>回复</button>
+							<button class="cancelreply">回复</button>
 							
 						</div>
 					</div>
 				</div>
 				<div class="msgrow voicemessage">
 					<div class="typepicc">
-						<img src="voice.gif" />
+						<img src="images/voice.gif" />
 					</div>
 					<div class="msgmain">
 						<div class="msgbar">
@@ -96,17 +130,19 @@
 							</div>
 						</div>
 						<div class="replypanel">
+							<div class="hmargin"></div>
 							<div>消息回复：</div>
 							<textarea></textarea>
 							<button class="cancelreply">收起</button>
-							<button>回复</button>
+							<button class="cancelreply">回复</button>
 							
 						</div>
 					</div>
 				</div>
-				<div class="messagerow voicemessage">
+			</div>
+			<div class="msgrow voicemessage">
 					<div class="typepicc">
-						<img src="voice.gif" />
+						<img src="images/voice.gif" />
 					</div>
 					<div class="msgmain">
 						<div class="msgbar">
@@ -131,8 +167,16 @@
 								</div>
 							</div>
 						</div>
+						<div class="replypanel">
+							<div class="hmargin"></div>
+							<div>消息回复：</div>
+							<textarea></textarea>
+							<button class="cancelreply">收起</button>
+							<button class="cancelreply">回复</button>
+						</div>
 					</div>
 				</div>
+				
 			</div>
 		</div>
 	</div>

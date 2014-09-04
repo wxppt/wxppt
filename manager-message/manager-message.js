@@ -6,17 +6,21 @@ $(document).ready(function() {
     
     $(".msgreply").click(function() {
         $(this).hide();
-        $(this).parents(".msgrow").animate({"height": $(this).parents(".msgrow").height() + 260 + "px"});
-        $(this).parents(".msgrow").children(".msgmain").animate({"height": $(this).parents(".msgrow").children(".msgmain").height() + 260 + "px"});
+        $(this).parents(".msgrow").animate({"height": $(this).parents(".msgrow").height() + 265 + "px"});
+        $(this).parents(".msgrow").children(".msgmain").animate({"height": $(this).parents(".msgrow").children(".msgmain").height() + 265 + "px"});
         $(this).parents(".msgrow").children(".msgmain").children(".replypanel").show();
     });
 
     $(".cancelreply").click(function() {
-        $(this).parents(".msgrow").children(".msgmain").animate({"height": $(this).parents(".msgrow").children(".msgmain").height() - 260 + "px"});
-        $(this).parents(".msgrow").animate({"height": $(this).parents(".msgrow").height() - 260 + "px"}, function() {
+        $(this).parents(".msgrow").children(".msgmain").animate({"height": $(this).parents(".msgrow").children(".msgmain").height() - 265 + "px"});
+        $(this).parents(".msgrow").animate({"height": $(this).parents(".msgrow").height() - 265 + "px"}, function() {
             $(this).children(".msgmain").children(".msgbar").children(".msgreply").show();
             $(this).children(".msgmain").children(".replypanel").hide();
         });
+    });
+
+    $(".msgfilter").click(function() {
+        $(this).addClass("filterselected").siblings().removeClass("filterselected");
     });
 });
 

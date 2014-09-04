@@ -59,6 +59,10 @@
 	height: 180px;
 }
 
+.textmsgmain {
+	margin-bottom: 10px;
+}
+
 
 /*消息的发出方，时间和按钮*/
 .msgbar {
@@ -92,6 +96,7 @@
 	width: 100%;
 	min-height: 23px;
 	overflow: hidden;
+	margin-top: 5px;
 }
 
 .picmsgdetail {
