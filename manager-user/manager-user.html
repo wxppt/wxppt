@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="manager_main.css">
+	<link rel="stylesheet" type="text/css" href="message-voice.css">
+	<link rel="stylesheet" type="text/css" href="global.css">
+	<link rel="stylesheet" type="text/css" href="manager-user.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="manager-user.js"></script>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<div class="glasswindow">
+		<div class="windowtitlebar">
+			<div class="windowtitle"><span>修改信息</span> - <span>WXPPt</span></div>
+			<button class="windowclose">x</button>
+		</div>
+			<input type="hidden" >
+			<div class="windowcontentp">
+				<div>备注：<input type="text" name="remark" id="remark" maxlength=25></div>
+				<div>电话：<input type="text" name="tel" id="tel" maxlength=25></div>
+				<div>邮箱：<input type="text" name="email" id="email" maxlength=25></div>
+			</div>
+
+			<div class="windowoperationp">
+				<button class="windowopok" style="margin-right:30px;">修&nbsp;&nbsp;改</button>
+				<button class="windowcancel">取&nbsp;&nbsp;消</button>
+			</div>
+		</form>
+	</div>
+
+	<div id="right">
+			<div id="righttop">
+				<div id="righttitle">用户列表</div>
+				<div id="usersearch"><input class="ctf" type="text" spellcheck="false" placeholder="用户搜索" name="keywords" /></div>
+				<div id="userfilter">当前显示：
+					<a class="undecorate usrfilter filterselected" href="javascript:">全部用户</a>
+					<a class="undecorate usrfilter" href="javascript:">员工</a>
+					<a class="undecorate usrfilter" href="javascript:">粉丝</a>
+				</div>
+			</div>
+
+			<div id="content">
+				<div class="userrow">
+					<div class="headpicc">
+						<img src="images/user.gif" />
+					</div>
+					<div class="usermain">
+						<div class="userinfo">
+							<div class="usernameinfo">
+								<span class="nickinfo">WXPPt</span>
+								<span class="typeinfo typestaff">员工</span>
+							</div>
+							<div class="userdetailinfo">
+								<div>E-mail：<span><a class="emaillink" href="mailto:test@126.com">test@126.com</a></span></div>
+								<div>Tel：<span class="telnum">13800000000</span></div>
+							</div>
+						</div>
+						<div class="userfuncc">
+							<div class="vmargin"></div>
+							<div class="userfunc">
+								<a class="usermodify" href="javascript:" style="margin-left:-6px;"><img src="images/modify.gif" />修改信息</a>
+								<br/>
+								<a class="stafftofans" href="javascript:"><img src="images/exchange.gif" />转换为粉丝</a>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="userrow">
+					<div class="headpicc">
+						<img src="images/user.gif" />
+					</div>
+					<div class="usermain">
+						<div class="userinfo">
+							<div class="usernameinfo">
+								<span class="bzinfo">王鑫</span>
+								<span class="nickinfo">(WXPPt)</span>
+								<span class="typeinfo typefans">粉丝</span>
+							</div>
+							<div class="userdetailinfo">
+							</div>
+						</div>
+						<div class="userfuncc">
+							<div class="vmargin"></div>
+							<div class="userfunc">
+								<a class="usermodify" href="javascript:" style="margin-left:-6px;"><img src="images/modify.gif" />修改信息</a>
+								<br/>
+								<a class="fanstostaff" href="javascript:"><img src="images/exchange.gif" />转换为员工</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

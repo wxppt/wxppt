@@ -1,0 +1,228 @@
+#righttitle {
+	margin-top: 13px;
+	margin-left: 40px;
+	min-width: 100px;
+	width: 10%;
+	float: left;
+}
+
+#userfilter {
+	margin-top: 16px;
+	margin-right: 45px;
+	font-size: 14px;
+	float: right;
+}
+
+#userfilter a {
+	margin-left: 10px;
+}
+
+.filterselected {
+	text-decoration: underline;
+}
+
+.userrow {
+	width: 100%;
+	height: 80px;
+	min-height: 80px;
+	border-bottom: 1px solid gray;
+	overflow-y: hidden;
+}
+
+.headpicc {
+	width: 50px;
+	height: 50px;
+	padding-top: 15px;
+	padding-left: 40px;
+	float:left;
+}
+
+.usermain {
+	width: 83%;
+	height:100%;
+	margin-left: 20px;
+	float: left;
+	overflow: hidden;
+}
+
+#usersearch {
+	float: right;
+	width: 130px;
+	margin-top: 13px;
+	margin-right:23px;
+}
+
+.userinfo {
+	width: 85%;
+	height: 100%;
+	float: left;
+}
+
+.userfuncc {
+	width: 15%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+.userfunc {
+	width: 98%;
+	height: 48px;
+	float: left;
+	/*background-color: #bbbbbb;*/
+	text-align: center;
+	margin-top: 18px;
+}
+
+.userfunc a {
+	margin-top: 5px;
+	font-size: 12px;
+	color: #555555;
+	text-decoration: none;
+}
+
+.userfunc img {
+	width: 12px;
+	height: 12px;
+	margin-right: 3px;
+}
+
+.userfunc a:hover {
+	text-decoration: underline;
+}
+
+.usernameinfo {
+	margin-top: 15px;
+	height: 23px;
+	width: 100%;
+}
+
+.usernameinfo .nickinfo {
+	color: #555555;
+	padding-left: 2px;
+}
+
+.usernameinfo .typeinfo {
+	margin-left: 8px;
+	color: white;
+	background-color: #e92c2c;
+	border-radius: 5px;
+	padding: 2px 5px 2px 5px;
+	font-size: 12px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+.usernameinfo .typestaff {
+	background-color: #e92c2c;
+}
+
+.usernameinfo .typefans {
+	background-color: #0073dd;
+}
+
+.userdetailinfo {
+	margin-top: 8px;
+	height: 23px;
+	width: 100%;
+}
+
+.userdetailinfo div {
+	float:left;
+	margin-right: 15%;
+	font-weight: bold;
+	color: #555555;
+}
+
+.userdetailinfo div span {
+	font-weight: 100;
+}
+
+.emaillink {
+	color: #555555;
+}
+
+.vmargin {
+	height: 70%;
+	width: 1px;
+	background-color: #bbbbbb;
+	float: left;
+	margin-top: 10%;
+}
+
+.glasswindow {
+	position: fixed;
+	width: 500px;
+	height: 300px;
+	top:0;
+	background-color: #e4e4e4;
+	border-radius: 20px;
+	padding: 10px;
+	border: 1px solid gray;
+	box-shadow:1px 1px 5px gray;
+	z-index: 0;
+	display: none;
+}
+
+.glasswindow .windowtitlebar {
+	width: 100%;
+	height: 36px;
+	font-size: 20px;
+	border-bottom: 1px solid gray;
+}
+
+.glasswindow .windowtitlebar .windowtitle {
+	width: 400px;
+	height: 100%;
+	float: left;
+	margin-left: 10px;
+	overflow: hidden;
+}
+
+.glasswindow .windowtitlebar .windowclose {
+	background-color: #e4e4e4;
+	border: 0;
+	font-size: 26px;
+	margin-top: -9px;
+	margin-right: 10px;
+	float: right;
+
+}
+
+.glasswindow .windowtitlebar .windowclose:hover {
+	font-weight: bold;
+}
+
+.glasswindow .windowcontentp {
+	width: 100%;
+	height: 170px;
+	padding-top: 40px;
+}
+
+
+.windowcontentp div {
+	width:300px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #222222;
+}
+
+.windowcontentp div input {
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	width: 200px;
+	margin-left: 10px;
+}
+
+.glasswindow .windowoperationp {
+	width: 100%;
+	height: 39px;
+	padding-left: 140px;
+}
+
+.windowoperationp button {
+	height: 100%;
+	width: 100px;
+}
