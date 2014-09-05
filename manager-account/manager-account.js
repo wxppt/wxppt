@@ -1,30 +1,15 @@
-
 $(document).ready(function() {
-   $(".contectmodify").click(function() {
-        var type = $(this).parents("span").attr("id");
-        if(type == "accounttel") {
-            $("#accounttel").hide();
-            $("#accounttelmodify>input").val($("#accounttelnum").text().trim());
-            $("#accounttelmodify").show();
-        } else if(type == "accountemail") {
-            $("#accountemail").hide();
-            $("#accountemailmodify>input").val($("#accountemailnum").text().trim());
-            $("#accountemailmodify").show();
-        }
-   });
+	$(".contectmodify").click(function() {
+		$(this).parent().hide().siblings().show();
+		$(this).parent().hide().siblings().children("input").val($(this).siblings().text().trim());
+	});
 
-   $(".telok").click(function() {
-   		$("#accounttel").show();
-        $("#accounttelmodify").hide();
-   });
+	$(".modifyok").click(function() {
+		$(this).parent().hide().siblings().show();
+	});
 
-   $(".emailok").click(function() {
-   		$("#accountemail").show();
-        $("#accountemailmodify").hide();
-   });
-
-   $(".pwmodify").click(function() {
-   		locateGlassWindow();
-   		$(".glasswindow").show();
-   });
+	$(".pwmodify").click(function() {
+		locateGlassWindow();
+		$(".glasswindow").show();
+	});
 });

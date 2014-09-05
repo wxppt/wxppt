@@ -75,6 +75,6 @@
 	width: 50px;
 }
 
-#accounttelmodify,#accountemailmodify {
+.accountinfomodify {
 	display: none;
 }
