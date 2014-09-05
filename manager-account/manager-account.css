@@ -5,3 +5,76 @@
 	width: 10%;
 	float: left;
 }
+
+.tablebtn {
+	width: 60px;
+	height: 26px;
+	border-radius: 5px;
+	border: 1px solid white;
+	background-color: #3d4c4f;
+	color: white;
+	margin-left: 80px;
+}
+
+.tablebtn:hover {
+	background-color: #506367;
+}
+
+
+
+.accountinfo {
+	width: 90%;
+	height: 400px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.accountinfo table {
+	width: 100%;
+	
+}
+
+
+.tablesecname {
+	height: 30px;
+	font-weight: 100;
+	color: #222222;
+	background-color: #d5ded9;
+	border-radius: 5px;
+}
+
+.accounttablea {
+	color: #555555;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.accounttablea:hover {
+	text-decoration: underline;
+}
+
+.tablesubname {
+	width: 180px;
+	height: 50px;
+	text-indent: 30px;
+	font-weight: bold;
+	color: #666666;
+}
+
+.accounttf {
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	width: 200px;
+}
+
+.accountbtn {
+	padding: 2px;
+	margin-left: 10px;
+	width: 50px;
+}
+
+#accounttelmodify,#accountemailmodify {
+	display: none;
+}

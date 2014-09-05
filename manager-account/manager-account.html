@@ -6,11 +6,33 @@
 	<link rel="stylesheet" type="text/css" href="message-voice.css">
 	<link rel="stylesheet" type="text/css" href="global.css">
 	<link rel="stylesheet" type="text/css" href="manager-account.css">
+	<link rel="stylesheet" type="text/css" href="manager-user.css">
 	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="manager-user.js"></script>
 	<script type="text/javascript" src="manager-account.js"></script>
 	<meta charset="utf-8">
 </head>
 <body>
+
+	<div class="glasswindow">
+		<div class="windowtitlebar">
+			<div class="windowtitle"><span>修改密码</span> - <span>[username]</span></div>
+			<button class="windowclose">x</button>
+		</div>
+			<input type="hidden" >
+			<div class="windowcontentp">
+				<div>旧密码：<input type="text" name="remark" id="remark" maxlength=25></div>
+				<div>新密码：<input type="text" name="tel" id="tel" maxlength=25></div>
+				<div>重 &nbsp;&nbsp;复：<input type="text" name="email" id="email" maxlength=25></div>
+			</div>
+
+			<div class="windowoperationp">
+				<button class="windowopok" style="margin-right:30px;">修&nbsp;&nbsp;改</button>
+				<button class="windowcancel">取&nbsp;&nbsp;消</button>
+			</div>
+		</form>
+	</div>
+
 	<div id="right">
 			<div id="righttop">
 				<div id="righttitle">账号管理</div>
@@ -18,7 +40,58 @@
 			</div>
 
 			<div id="content">
-				
+				<div class="accountinfo">
+					<table border="0">
+						<tbody>
+							<tr>
+								<td class="tablesecname" colspan="2">● 基本信息</td>
+							</tr>
+							<tr>
+								<td class="tablesubname">用户名</td>
+								<td>WXPPt <a class="accounttablea pwmodify" href="javascript:">（修改密码）</a></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								
+							</tr>
+							<tr>
+								<td class="tablesecname" colspan="2">● 联系方式</td>
+							</tr>
+							<tr>
+								<td class="tablesubname">电话</td>
+								<td>
+									<span id="accounttel">
+										<span id="accounttelnum">
+											15800000000
+										</span> 
+										<a class="accounttablea contectmodify" href="javascript:">（修改）</a>
+									</span>
+									<span id="accounttelmodify">
+										<input name="tel" class="accounttf" type="text" placeholder="请输入电话" autocomplete="none"/>
+										<button class="accountbtn telok">修改</button>
+										<button class="accountbtn telok">取消</button>
+									</span>
+								</td>
+							</tr>
+							<tr>
+								<td class="tablesubname">邮箱</td>
+								<td>
+									<span id="accountemail">
+										<span id="accountemailnum">
+											test@126.com
+										</span> 
+										<a class="accounttablea contectmodify" href="javascript:">（修改）</a>
+									</span>
+									<span id="accountemailmodify">
+										<input name="email" class="accounttf" type="text" placeholder="请输入邮箱" autocomplete="none"/>
+										<button class="accountbtn emailok">修改</button>
+										<button class="accountbtn emailok">取消</button>
+									</span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 		</div>
 	</div>
